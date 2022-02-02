@@ -1,61 +1,61 @@
 export default {
   identity: {
-    firstName: "Jhonatan",
-    lastName: "Uribe",
-    title: "Software Developer"
+    firstName: "Ever",
+    lastName: "Cabarcas",
+    title: "Software Developer",
   },
   contact: {
-    phone: "XXX XXX XXXX",
-    location: "Medellin",
-    email: "yosoyuribe@gmail.com"
+    phone: "301 5054 097",
+    location: "Cartagena",
+    email: "evercabarcasmallarino@gmail.com",
   },
   about:
-    "Passionate Software developer. Experience in Backend and Frontend development. Node, React and Angular have been my most used tools. Sometimes i play with JVM languages though (The place i come from). I really enjoy challenges.",
+    "Training in design and software development. Passionate about good practices and quality in the products made. Person committed to their work, with good communication skills, time management and teamwork. I have experience in Front-End and Back-End development. In search of new challenges that enhance my skills.",
   networks: [
     {
       name: "linkedin",
       color: "#357AB6",
-      profileUrl: "https://www.linkedin.com/in/jhonatan-uribe-515171125/"
+      profileUrl: "",
     },
     {
       name: "github",
       color: "#171515",
-      profileUrl: "https://github.com/jotauribe"
+      profileUrl: "",
     },
     {
       name: "twitter",
       color: "#5DA9DD",
-      profileUrl: "https://twitter.com/JotaHuertas"
-    }
+      profileUrl: "",
+    },
   ],
   experience: [
     {
       company: "Globant",
       position: "NodeJs Developer",
       logo: { url: "/globant.jpg", height: "24px", color: "#c3d500" },
-      period: "OCT/2018 - PRESENT",
+      period: "MAY/2021 - PRESENT",
       abstract:
-        "Worked as part of a multi-disciplinary team, in charge of the development and maintainance of a microservice based backend with a series of React applications as frontend.",
-      techStack: ["reactjs", "javascript", "nodejs"]
+        "Worked as part of a multi-disciplinary team, in charge of the development and maintainance of the backend services for the Great Minds organization.",
+      techStack: ["expressjs", "javascript", "nodejs", "nestjs"],
     },
     {
-      company: "Accenture",
-      position: "Fullstack Developer",
-      logo: { url: "/accenture.png", height: "36px", color: "#7400C1" },
-      period: "AUG/2018 - OCT/2018",
+      company: "Elemento43",
+      position: "NodeJs Developer",
+      logo: { url: "/elemento43.svg", height: "36px", color: "#7400C1" },
+      period: "NOV/2018 - MAY/2021",
       abstract:
-        "Worked as a Fullstack Java/Angular developer for the digital sales channel of one of the company's clients.",
-      techStack: ["angular", "java"]
+        "I work in a multidisciplinary group responsible for the construction of services and microservices in Nodejs, Django and Laravel for several products of international clients",
+      techStack: ["expressjs", "javascript", "nodejs", "django"],
     },
     {
-      company: "Condorlabs",
-      position: "Fullstack Developer",
+      company: "Open International",
+      position: "PLSQL Developer",
       logo: { url: "condorlabs.svg", height: "18px", color: "#fdcd08" },
-      period: "JAN/2018 - AUG/2018",
+      period: "JAN/2018 - NOV/2018",
       abstract:
-        "Worked as part of the team in charge of the development of the gateway API and the website of one of the main products of the company, using Express and ReactJS.",
-      techStack: ["nodejs", "javascript", "reactjs"]
-    }
+        "Worked as a PLSQL developer holding and maintaining the company's main product through centralized software components.",
+      techStack: ["oracle"],
+    },
   ],
   skillSets: [
     {
@@ -64,8 +64,8 @@ export default {
       bgColor: "rgba(9, 149, 255, 0.25)",
       skills: [
         { name: "Software Design", level: 85 },
-        { name: "Unit Testing", level: 75 }
-      ]
+        { name: "Unit Testing", level: 75 },
+      ],
     },
     {
       skillCategory: "Programming Languages",
@@ -74,8 +74,8 @@ export default {
       skills: [
         { name: "JavaScript", level: 85 },
         { name: "TypeScript", level: 75 },
-        { name: "Java", level: 60 }
-      ]
+        { name: "Java", level: 60 },
+      ],
     },
     {
       skillCategory: "Frameworks & Libraries",
@@ -84,8 +84,8 @@ export default {
       skills: [
         { name: "NodeJS", level: 85 },
         { name: "React", level: 80 },
-        { name: "Angular", level: 80 }
-      ]
+        { name: "Angular", level: 80 },
+      ],
     },
     {
       skillCategory: "Soft Skills",
@@ -93,12 +93,12 @@ export default {
         { name: "Self Learning", level: 97 },
         { name: "Problem Solving", level: 90 },
         { name: "Communication", level: 80 },
-        { name: "Adaptability", level: 85 }
-      ]
-    }
+        { name: "Adaptability", level: 85 },
+      ],
+    },
   ],
   languages: [
     { lang: "ES", name: "Spanish", level: 5, native: true },
-    { lang: "EN", name: "English", level: 3, native: false }
-  ]
+    { lang: "EN", name: "English", level: 3, native: false },
+  ],
 };

@@ -6,6 +6,7 @@ import Header from "./components/Header";
 import Experience from "./components/Experience";
 import Skills from "./components/Skills";
 import Langs from "./components/Languages";
+import Contact from "./components/Contact";
 
 const ThreeColumnsLayout = styled.div`
   display: flex;
@@ -34,11 +35,14 @@ class App extends Component {
             style={{
               display: "flex",
               flexDirection: "column",
-              justifyContent: "stretch"
+              justifyContent: "stretch",
             }}
           >
             <Skills style={{ marginBottom: "8px" }} />
+          </div>
+          <div>
             <Langs style={{ flexGrow: "1" }} />
+            <Contact style={{ flexGrow: "1" }}></Contact>
           </div>
         </ThreeColumnsLayout>
       </div>

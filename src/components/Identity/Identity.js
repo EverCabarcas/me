@@ -33,7 +33,7 @@ export default function Identity({ firstname, lastname, profession }) {
   return (
     <IdentityComponent className="identity">
       <Name className="identity__name">
-        JHONATAN <LastName> URIBE</LastName>{" "}
+        EVER <LastName> CABARCAS</LastName>{" "}
       </Name>
       <Profession className="identity__profession">
         SOFTWARE DEVELOPER

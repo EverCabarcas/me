@@ -45,11 +45,11 @@ export default function Header() {
     >
       <HeaderContent className="header__content">
         <Identity className="identity" />
-        <Contact />
+        {/* <Contact /> */}
         <About />
         <HeaderActions className="header__actions">
-          <Networks />
-          <Button style={{ paddingRight: "8px" }}>
+          {/* <Networks /> */}
+          {/* <Button style={{ paddingRight: "8px" }}>
             Download CV
             <Icon
               name="download"
@@ -58,7 +58,7 @@ export default function Header() {
               fill="#ffffff"
               style={{ marginLeft: "8px" }}
             />
-          </Button>
+          </Button> */}
         </HeaderActions>
       </HeaderContent>
       <HeaderBackground className="header__photo">
